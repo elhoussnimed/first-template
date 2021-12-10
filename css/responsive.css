@@ -148,8 +148,11 @@
     height: auto;
   }
   .service header h2 {
-    font-size: 4.5em;
+    font-size: 4em;
     text-shadow: 0px 0px 0.2px black;
+  }
+  .service header p {
+    font-size: 20px;
   }
   .main-section aside {
     display: none;
@@ -277,8 +280,11 @@
     margin-right: auto;
   }
   .portfolio header h2 {
-    font-size: 4.5em;
+    font-size: 4em;
     text-shadow: 0px 0px 0.2px black;
+  }
+  .portfolio header p {
+    font-size: 15px;
   }
   .portfolio .main-section {
     display: flex;
@@ -348,8 +354,11 @@
     margin-right: auto;
   }
   .about header h2 {
-    font-size: 4.5em;
+    font-size: 4em;
     text-shadow: 0px 0px 0.2px black;
+  }
+  .about header p {
+    font-size: 20px;
   }
   .about section {
     width: 90%;
@@ -361,6 +370,10 @@
     width: 40%;
     margin: 0px auto;
     transform: translateX(-15%);
+  }
+  .about section article {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -404,10 +417,23 @@
     margin-right: auto;
   }
   .contact header h2 {
-    font-size: 4.5em;
+    font-size: 4em;
+  }
+  .contact header p {
+    font-size: 20px;
   }
   .contact .main-section {
     margin: 75px auto;
+    width: 75%;
+  }
+  .contact .main-section div {
+    text-align: center;
+  }
+  .contact .main-section .feel-free {
+    font-size: 1.5em;
+  }
+  .contact .main-section div a {
+    font-size: 1.5em;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
