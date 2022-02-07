@@ -20,33 +20,25 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- main template css files -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- responsive design  -->
-    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
     <header>
         <div class="container">
             <a href="#"><img src="images/logo.png" alt="logo"></a>
-            <div class="line-container">
-                <div class="line">
-                    <hr class="header-line-1">
-                    <hr class="header-line-2">
-                    <hr class="header-line-3">
-                </div>
-                <div class="list">
-                    <ul>
-                        <li class="service-li"><a href="#service">services</a></li>
-                        <li class="portfolio-li"><a href="#portfolio">portfolio</a></li>
-                        <li class="about-li"><a href="#about">about</a></li>
-                        <li class="contact-li"><a href="#contact">contact</a></li>
-                    </ul>
-                </div>
-            </div>
+            <nav>
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu"><i class="fas fa-grip-lines"></i></label>
+                <ul>
+                    <li class="service-li"><a href="#service">services</a></li>
+                    <li class="portfolio-li"><a href="#portfolio">portfolio</a></li>
+                    <li class="about-li"><a href="#about">about</a></li>
+                    <li class="contact-li"><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <section id="home" class="landing">
-        <img src="images/landing.jpg" alt="">
         <div class="container">
             <div class="top-section">
                 <div class="text">
@@ -80,16 +72,12 @@
     <section id="service" class="service">
         <div class="container">
             <header class="text">
-                <div>
-                    <h2>services</h2>
-                </div>
-                <div>
-                    <p> Don't be busy, be productive</p>
-                </div>
+                <h2>services</h2>
+                <p> Don't be busy, be productive</p>
             </header>
             <section class="main-section">
                 <article class="main-article">
-                    <article class="graphic-design">
+                    <article class=" wrapper graphic-design">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text-graph">
                             <h3>graphic design</h3>
@@ -97,7 +85,7 @@
                                 and problem-solving using one or more of typography, photography and illustration.</p>
                         </div>
                     </article>
-                    <article class="web-design">
+                    <article class=" wrapper web-design">
                         <i class="fas fa-pen-nib"></i>
                         <div class="text-design">
                             <h3>web design</h3>
@@ -105,7 +93,7 @@
                                 the production and maintenance of websites.</p>
                         </div>
                     </article>
-                    <article class="ui">
+                    <article class=" wrapper ui">
                         <i class="fab fa-uikit"></i>
                         <div class="text-ui">
                             <h3>ui & ux</h3>
@@ -113,7 +101,7 @@
                                 improving the usability, accessibility, and pleasure provided in the interaction.</p>
                         </div>
                     </article>
-                    <article class="web-development">
+                    <article class=" wrapper web-development">
                         <i class="far fa-file-code"></i>
                         <div class="text-web">
                             <h3>web development</h3>
@@ -132,27 +120,23 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <header class="portfolio-hedear">
-                <div>
-                    <h2>portfolio</h2>
-                </div>
-                <div>
-                    <p>If you do it right, it will last forever.</p>
-                </div>
+                <h2>portfolio</h2>
+                <p>If you do it right, it will last forever.</p>
             </header>
             <article class="main-section">
-                <div class="pic-1">
+                <div class="parent pic-1">
                     <img src="images/portfolio-1.jpg" alt="portfolio image">
                     <h3>project here</h3>
                     <p>My creative ability is very difficult to measure because
                         it can manifest in so many surprising and.</p>
                 </div>
-                <div class="pic-2">
+                <div class="parent pic-2">
                     <img src="images/portfolio-2.jpg" alt="portfolio image">
                     <h3>project here</h3>
                     <p>My creative ability is very difficult to measure because
                         it can manifest in so many surprising and.</p>
                 </div>
-                <div class="pic-3">
+                <div class="parent pic-3">
                     <img src="images/portfolio-3.jpg" alt="portfolio image">
                     <h3>project here</h3>
                     <p>My creative ability is very difficult to measure because
@@ -164,12 +148,8 @@
     <section id="about" class="about">
         <div class="container">
             <header class="about-header">
-                <div>
-                    <h2>about</h2>
-                </div>
-                <div>
-                    <p>Less is more work</p>
-                </div>
+                <h2>about</h2>
+                <p>Less is more work</p>
             </header>
             <section class="main-section">
                 <aside>
@@ -202,12 +182,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <header class="contact-header">
-                <div>
-                    <h2>contact</h2>
-                </div>
-                <div>
-                    <p>we are born to create</p>
-                </div>
+                <h2>contact</h2>
+                <p>we are born to create</p>
             </header>
             <section class="main-section">
                 <div>
